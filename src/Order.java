@@ -14,4 +14,8 @@ public class Order {
     public void toString() {
         return "Order has count: " + count;
     }
+
+    public int getCount() {
+        return this.count;
+    }
 }
